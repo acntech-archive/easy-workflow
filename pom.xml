@@ -149,6 +149,19 @@
                 <artifactId>webjars-locator</artifactId>
                 <version>${webjars.locator.version}</version>
             </dependency>
+
+            <!-- Project -->
+            <dependency>
+                <groupId>no.acntech.workflow</groupId>
+                <artifactId>easy-workflow-engine</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>no.acntech.workflow</groupId>
+                <artifactId>easy-workflow-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 

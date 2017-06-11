@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=no.acntech.workflow.core.config.ModuleConfig
