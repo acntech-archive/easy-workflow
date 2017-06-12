@@ -15,4 +15,9 @@
 
     <name>Easy Workflow Core</name>
     <description>Core functionality for workflow processing framework</description>
+
+    <!-- DEPENDENCIES -->
+    <dependencies>
+        <!-- Spring Boot -->
+    </dependencies>
 </project>

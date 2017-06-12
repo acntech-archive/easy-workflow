@@ -4,25 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- PROJECT -->
     <parent>
         <artifactId>easy-workflow</artifactId>
         <groupId>no.acntech.workflow</groupId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>easy-workflow-engine</artifactId>
+    <artifactId>easy-workflow-web</artifactId>
+    <packaging>pom</packaging>
 
-    <name>Easy Workflow Engine</name>
-    <description>Engine for workflow processing framework</description>
-
-    <!-- DEPENDENCIES -->
-    <dependencies>
-        <!-- Spring Boot -->
-        <!-- Project -->
-        <dependency>
-            <groupId>no.acntech.workflow</groupId>
-            <artifactId>easy-workflow-core</artifactId>
-        </dependency>
-    </dependencies>
+    <name>Easy Workflow Web</name>
+    <description>Web frontend for workflow processing framework</description>
 </project>

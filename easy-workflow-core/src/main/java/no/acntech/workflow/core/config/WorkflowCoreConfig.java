@@ -1,7 +1,7 @@
-package no.acntech.workflow.engine.config;
+package no.acntech.workflow.core.config;
 
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ModuleConfig {
+public class WorkflowCoreConfig {
 }

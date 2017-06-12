@@ -84,6 +84,7 @@
         <module>easy-workflow-core</module>
         <module>easy-workflow-engine</module>
         <module>easy-workflow-webapp</module>
+        <module>easy-workflow-web</module>
     </modules>
 
     <!-- DEPENDENCIES -->
@@ -98,6 +99,17 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- In-memory database -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
         </dependency>
     </dependencies>
 
